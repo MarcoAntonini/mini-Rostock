@@ -5,7 +5,7 @@ use <bearing.scad>;
 use <nema.scad>;
 use <motor_end.scad>;
 use <idler_end.scad>;
-use <carriage.scad>;
+use <carriage-slim_holder.scad>
 use <platform.scad>;
 use <rod.scad>;
 use <extruder.scad>;

@@ -24,10 +24,10 @@ module bowden_clamp() difference() {
 	translate([0,0,-1]) cylinder(r=8.2,h=6,$fn=32);
 
 	// M6 captive nut
-	cylinder(r=10.1/sqrt(3)+0.2,h=10,$fn=6);
+//	cylinder(r=6.9,h=8,$fn=6); // LP
 
 	// M6 pneumatic fitting
-	cylinder(r=3.2,h=14,$fn=32);
+	cylinder(r=4.5,h=14,$fn=32); // LP
 
 	// unnecessary vents
 	for(x=[-15,15]) translate([x,0,-1]) minkowski() {

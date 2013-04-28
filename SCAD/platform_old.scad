@@ -1,5 +1,5 @@
 include <configuration.scad>
-use <carriage-slim_holder.scad>
+use <carriage.scad>
 
 h=platform_thickness;
 

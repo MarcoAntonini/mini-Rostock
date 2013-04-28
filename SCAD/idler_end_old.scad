@@ -2,7 +2,7 @@ include <configuration.scad>
 use <bracket.scad>
 
 h = idler_end_height; // Total height.
-tilt = 2; // Tilt bearings upward (the timing belt is pulling pretty hard).
+tilt = 1; // Tilt bearings upward (the timing belt is pulling pretty hard).
           // 2 degree tilt caused belts to slide off the bearings
 
 module bearing_mount() {
